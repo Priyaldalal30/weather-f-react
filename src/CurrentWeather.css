@@ -1,0 +1,71 @@
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+}
+.weathericon canvas {
+  margin-left: 40px;
+  text-align: center;
+  margin-top: 150px;
+}
+.description1 {
+  margin-left: 40px;
+  margin-top: 0px;
+  padding: 2px;
+  font-size: 15px;
+  font-family: "Recursive", sans-serif;
+  font-weight: 400px;
+}
+.description2 {
+  margin-left: 40px;
+  margin-top: 0px;
+  padding: 2px;
+  font-size: 15px;
+  font-family: "Recursive", sans-serif;
+  font-weight: 400px;
+}
+
+.description1::first-letter,
+.description2::first-letter {
+  text-transform: capitalize;
+}
+.card2 {
+  display: grid;
+  grid-template-rows: 2fr 1fr 1fr;
+  margin-top: 60px;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(180deg, #15151518 30%, #23222218 100%);
+  box-shadow: 0 0 4px 4px rgba(113, 108, 108, 0.202) inset;
+  width: 370px;
+  height: 370px;
+  border-radius: 50%;
+}
+.city {
+  text-align: center;
+  font-size: 70px;
+  margin-top: -60px;
+}
+
+.date {
+  text-align: center;
+  font-size: 17px;
+  font-family: "Recursive", sans-serif;
+  font-weight: 400px;
+}
+.details {
+  margin-top: 120px;
+  margin-left: 25px;
+  font-size: 14px;
+  font-weight: 400px;
+  font-family: "Recursive", sans-serif;
+}
+.details1,
+.details2,
+.details3,
+.details4,
+.details5,
+.details6,
+.details7,
+.details8 {
+  padding-bottom: 3px;
+}

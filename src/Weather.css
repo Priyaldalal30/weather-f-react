@@ -1,0 +1,109 @@
+.celsiusLink {
+  color: black;
+  text-decoration: none;
+  padding: 5px;
+  display: flex;
+  justify-content: flex-end;
+}
+.celsiusLink:hover {
+  text-decoration: underline;
+}
+
+button,
+input {
+  background-color: rgba(255, 255, 255, 0);
+  border: none;
+  font-size: 20px;
+}
+input {
+  background-color: rgba(255, 255, 255, 0.245);
+  border-radius: 5px;
+  width: 250px;
+  height: 30px;
+}
+input::placeholder {
+  color: rgba(0, 0, 0, 0.628);
+}
+.search-form {
+  display: flex;
+  justify-content: flex-start;
+}
+button:hover {
+  cursor: pointer;
+}
+input:hover {
+  cursor: text;
+}
+.location {
+  padding: 0px;
+}
+hr {
+  height: 1px;
+  background-color: rgba(204, 204, 204, 0.228);
+  border: none;
+}
+
+#container {
+  padding: 10px;
+  margin: auto;
+  max-width: 800px;
+  border-radius: 5px;
+  box-shadow: inset 0px 0px 10px 2px rgba(0, 0, 0, 0.27);
+}
+
+.bg-clear-sky {
+  background-image: linear-gradient(180deg, #ffffff50 100%, #ffffff50 100%),
+    url("./images/Clear-sky.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.bg-cloudy {
+  background-image: linear-gradient(180deg, #ffffff50 100%, #ffffff50 100%),
+    url("./images/Cloudy.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.bg-partly-cloudy {
+  background-image: linear-gradient(180deg, #ffffff50 100%, #ffffff50 100%),
+    url("./images/Partly-cloudy.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.bg-overcast {
+  background-image: linear-gradient(180deg, #ffffff50 100%, #ffffff50 100%),
+    url("./images/Overcast.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.bg-rain {
+  background-image: linear-gradient(180deg, #ffffff50 100%, #ffffff50 100%),
+    url("./images/Rain.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.bg-thunderstrom {
+  background-image: linear-gradient(180deg, #ffffff50 100%, #ffffff50 100%),
+    url("./images/Thunderstorm.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.bg-snow {
+  background-image: linear-gradient(180deg, #ffffff50 100%, #ffffff50 100%),
+    url("./images/Snow.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.bg-fog {
+  background-image: linear-gradient(180deg, #ffffff50 100%, #ffffff50 100%),
+    url("./images/Fog.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}

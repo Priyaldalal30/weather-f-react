@@ -1,0 +1,63 @@
+@media (max-width: 700px) {
+  body {
+    margin: 5px;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+  }
+  .card2 {
+    margin: auto;
+    margin-top: 20px;
+  }
+  .description1 {
+    margin-top: 0px;
+    margin-left: 40px;
+  }
+  .description2 {
+    margin-top: 0px;
+    margin-left: 40px;
+  }
+  .card1 {
+    grid-row: 2;
+    text-align: left;
+  }
+  .weathericon canvas {
+    width: 100px;
+    height: 100px;
+    text-align: left;
+    margin-top: 60px;
+  }
+  .details {
+    text-align: start;
+    margin: 0px;
+    margin-left: 300px;
+    margin-top: -175px;
+  }
+  .day5,
+  .day6,
+  .day7,
+  .hourly-grid8,
+  .hourly-grid9,
+  .hourly-grid10,
+  .hourly-grid11,
+  .hourly-grid12 {
+    display: none;
+  }
+  .daily-grid {
+    grid-template-columns: repeat(4, 1fr);
+    margin: auto;
+    column-gap: 5px;
+  }
+  .hourly-grid {
+    grid-template-columns: repeat(7, 1fr);
+  }
+}
+@media (max-width: 500px) {
+  .details {
+    margin-left: 200px;
+  }
+  .forecast-low-temp {
+    margin-left: 0px;
+  }
+}
